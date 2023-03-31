@@ -1,2 +1,2 @@
 # repositorio_brigido
-This is a repository very very brigido 
+This is a very very brigido repository
