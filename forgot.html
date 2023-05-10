@@ -75,43 +75,18 @@
 
         <div class="col-md-8 col-lg-6 col-xl-4">
           <div class="card" style="color: #4B515D; border-radius: 35px;">
-            <div class="card-header text-center">Registro</div>
+            <div class="card-header text-center">Recuperacion de Contraseña</div>
             <div class="card-body p-4">
 
-              <form id="registration_form">
-                <div class="form-outline mb-4">
-                  <input type="text" id="username_input" name="username_input" class="form-control" required />
-                  <label class="form-label" for="username_input">Nombre de Usuario</label>
-                </div>
+              <form id="forgot_form">
 
                 <div class="form-outline mb-4">
                   <input type="email" id="email_input" name="email_input" class="form-control" required />
                   <label class="form-label" for="email_input">Correo Electronico</label>
                 </div>
 
-                <div class="form-outline mb-4">
-                  <input type="text" id="rut_input" name="rut_input" oninput="ComprobarRUT(this)" class="form-control"
-                    maxlength="11" required />
-                  <label class="form-label" for="rut_input">Rut</label>
-                </div>
-
-                <div class="form-outline mb-4">
-                  <input type="date" id="date_input" name="date_input" class="form-control" required />
-                  <label class="form-label" for="date_input">Cumpleaños</label>
-                </div>
-
-                <div class="form-outline mb-4">
-                  <input type="password" id="password_input" name="password_input" class="form-control" required />
-                  <label class="form-label" for="password_input">Contraseña</label>
-                </div>
-
-                <div class="form-outline mb-4">
-                  <input type="password" id="repassword_input" name="repassword_input" class="form-control" required />
-                  <label class="form-label" for="repassword_input">Repetir Contraseña</label>
-                </div>
-
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">Registro</button>
+                <button type="submit" class="btn btn-primary btn-block mb-4">Recuperar</button>
               </form>
 
             </div>
