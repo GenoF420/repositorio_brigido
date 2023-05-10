@@ -1,132 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Super Clima - Duoc</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
-  <!-- MDB -->
-  <link rel="stylesheet" href="css/mdb.min.css" />
-  <link rel="stylesheet" href="css/notyf.min.css" />
-  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="manifest" href="img/site.webmanifest">
-  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-</head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <title>Super Clima - Duoc</title>
+        <!-- Font Awesome -->
+        <link
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+        <!-- Google Fonts Roboto -->
+        <link
+        rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
+        <!-- MDB -->
+        <link rel="stylesheet" href="css/mdb.min.css"/>
+        <link rel="stylesheet" href="css/notyf.min.css"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
+        <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Container wrapper -->
-    <div class="container-fluid">
-      <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
+    <body>
+        <!-- Navbar -->
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div
+                class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
 
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
-          <img src="img/duoc.png" height="15" alt="Duoc UC Logo" loading="lazy" />
-        </a>
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" class="">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html" class="">Nosotros</a>
-          </li>
-        </ul>
-        <!-- Left links -->
-      </div>
-      <!-- Collapsible wrapper -->
-
-      <!-- Right elements -->
-      <div class="d-flex align-items-center">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="login.html" class="">Iniciar Sesion</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="register.html" class="">Registro</a>
-          </li>
-        </ul>
-      </div>
-      <!-- Right elements -->
-    </div>
-    <!-- Container wrapper -->
-  </nav>
-  <!-- Navbar -->
-  <section>
-    <div class="container py-5 h-100">
-
-      <div class="row d-flex justify-content-center align-items-center h-100">
-
-        <div class="col-md-8 col-lg-6 col-xl-4">
-          <div class="card" style="color: #4B515D; border-radius: 35px;">
-            <div class="card-header text-center">Registro</div>
-            <div class="card-body p-4">
-
-              <form id="registration_form">
-                <div class="form-outline mb-4">
-                  <input type="text" id="username_input" name="username_input" class="form-control" required />
-                  <label class="form-label" for="username_input">Nombre de Usuario</label>
+                <!-- Collapsible wrapper -->
+                <div
+                    class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img src="img/duoc.png" height="15" alt="Duoc UC Logo" loading="lazy"/>
+                    </a>
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" class="">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" class="">Nosotros</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
                 </div>
+                <!-- Collapsible wrapper -->
 
-                <div class="form-outline mb-4">
-                  <input type="email" id="email_input" name="email_input" class="form-control" required />
-                  <label class="form-label" for="email_input">Correo Electronico</label>
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html" class="">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html" class="">Registro</a>
+                        </li>
+                    </ul>
                 </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+        <section>
+            <div class="container py-5 h-100">
 
-                <div class="form-outline mb-4">
-                  <input type="text" id="rut_input" name="rut_input" oninput="ComprobarRUT(this)" class="form-control"
-                    maxlength="11" required />
-                  <label class="form-label" for="rut_input">Rut</label>
+                <div class="row d-flex justify-content-center align-items-center h-100">
+
+                    <div class="col-md-8 col-lg-6 col-xl-4">
+                        <div class="card" style="color: #4B515D; border-radius: 35px;">
+                            <div class="card-header text-center">Registro</div>
+                            <div class="card-body p-4">
+
+                                <form id="registration_form">
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="username_input" name="username_input" class="form-control" required/>
+                                        <label class="form-label" for="username_input">Nombre de Usuario</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="email" id="email_input" name="email_input" class="form-control" required/>
+                                        <label class="form-label" for="email_input">Correo Electronico</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="rut_input" name="rut_input" oninput="ComprobarRUT(this)" class="form-control" maxlength="11" required/>
+                                        <label class="form-label" for="rut_input">Rut</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="date" id="date_input" name="date_input" class="form-control" required/>
+                                        <label class="form-label" for="date_input">Cumpleaños</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="0"/>
+                                            <label class="form-check-label" for="inlineRadio1">Hombre</label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="1"/>
+                                            <label class="form-check-label" for="inlineRadio2">Mujer</label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="2"/>
+                                            <label class="form-check-label" for="inlineRadio3">Otro</label>
+                                        </div>
+
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="3"/>
+                                            <label class="form-check-label" for="inlineRadio4">Prefiero no Decir</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="password_input" name="password_input" class="form-control" required/>
+                                        <label class="form-label" for="password_input">Contraseña</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="repassword_input" name="repassword_input" class="form-control" required/>
+                                        <label class="form-label" for="repassword_input">Repetir Contraseña</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="rememberMe" checked required/>
+                                            <label class="form-check-label" for="rememberMe">
+                                                Acepto los
+                                                <a href="#">terminos y condiciones</a>.</label>
+                                        </div>
+                                    </div>
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-primary btn-block mb-4">Registro</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="form-outline mb-4">
-                  <input type="date" id="date_input" name="date_input" class="form-control" required />
-                  <label class="form-label" for="date_input">Cumpleaños</label>
-                </div>
-
-                <div class="form-outline mb-4">
-                  <input type="password" id="password_input" name="password_input" class="form-control" required />
-                  <label class="form-label" for="password_input">Contraseña</label>
-                </div>
-
-                <div class="form-outline mb-4">
-                  <input type="password" id="repassword_input" name="repassword_input" class="form-control" required />
-                  <label class="form-label" for="repassword_input">Repetir Contraseña</label>
-                </div>
-
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">Registro</button>
-              </form>
 
             </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- MDB -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Custom scripts -->
-  <script type="text/javascript" src="js/notyf.min.js"></script>
-  <script type="text/javascript" src="js/bcrypt.min.js"></script>
-  <script type="text/javascript" src="js/duoc.js"></script>
-</body>
+        </section>
+        <!-- MDB -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Custom scripts -->
+        <script type="text/javascript" src="js/notyf.min.js"></script>
+        <script type="text/javascript" src="js/bcrypt.min.js"></script>
+        <script type="text/javascript" src="js/duoc.js"></script>
+    </body>
 
 </html>
